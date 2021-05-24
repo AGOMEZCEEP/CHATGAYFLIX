@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stylechat.css">
+    <title>Chat</title>
+</head>
+
+<body>
+     <script> window.alert('- Respeta a los demás.\n- No proporciones datos personales (contraseñas).\n- No está permitido realizar spam o publicar contenidos sexuales. \n- En caso de incumplir alguna norma, serás baneado.');</script>
+    <div id="chat-container">
+        <div id="search-container">
+            <input type="text" placeholder="Buscar" />
+        </div>
+        <div id="conversation-list">
+            <div class="conversation active" style="padding: 10px;">
+                <img src="img/avatar.png" style="width: 100%;" />
+                <div class="title-text">
+                    Danilo
+                </div>
+                <div class="create-date">
+
+                </div>
+                <div class="connect">
+                    En linea
+                </div>
+            </div>
+            <div class="conversation active" style="padding: 10px;">
+                <img src="img/avatar.png" style="width: 100%;" />
+                <div class="title-text">
+                    Koke
+                </div>
+                <div class="create-date">
+
+                </div>
+                <div class="connect">
+                    ult. vez a las 18:41
+                </div>
+            </div>
+            <div class="conversation active" style="padding: 10px;">
+                <img src="img/avatar.png" style="width: 100%;" />
+                <div class="title-text">
+                    Alex
+                </div>
+                <div class="create-date">
+
+                </div>
+                <div class="connect">
+                    En linea
+                </div>
+            </div>
+            <div class="conversation active" style="padding: 10px;">
+                <img src="img/avatar.png" style="width: 100%;" />
+                <div class="title-text">
+                    Carmen
+                </div>
+                <div class="create-date">
+
+                </div>
+                <div class="connect">
+                    ult. vez a las 17:50
+                </div>
+            </div>
+            <div class="conversation active" style="padding: 10px;">
+                <img src="img/avatar.png" style="width: 100%;" />
+                <div class="title-text">
+                    Andrés
+                </div>
+                <div class="create-date">
+
+                </div>
+                <div class="connect">
+                    ult. vez ayer a las 18:20
+                </div>
+            </div>
+        </div>
+        <!--BOTÓN DE ENVIAR FOTOS-->
+        <div id="new-message-container">
+              <a href=""> <img src="img/img.png" style="width:150%;"> </a>          
+        </div>
+    
+        <div id="chat-title">
+             <a href="https://www.gayflix.app/"><img alingn="center" src="https://www.gayflix.app/apiv3/release/iphone/12/photo/root_swipe_header_elements_158886391999_image@iphone6plus.png?v=1602858405" class="card-img-top" alt="" style="width: 60%; margin-left: 22%;"></a>
+        </div>
+        <div id="chat-message-list">
+
+        </div>
+        <div id="chat-form">
+            <input type="text" placeholder="Escribe un mensaje" />
+            <!-- <img src="img/enviar.png" style="width: 5%; margin-left: 570px; opacity: 0.8;" /> -->
+            <input type="submit" value="Enviar" style="width: 9%; margin-left: 560px; opacity: 0.8;" />
+        </div>
+
+</body>
+
+</html>
